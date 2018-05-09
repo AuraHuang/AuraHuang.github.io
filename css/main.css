@@ -68,7 +68,7 @@
  *
  * ------------------------------------------------------------------- */
 *{
-  /* border: solid 1px black; */
+  border: solid 1px black;
 }
 
 html {
@@ -2350,6 +2350,12 @@ html.no-csstransitions .home-content__main {
 
 .timeline__header h5 {
     margin-top: 0;
+}
+
+.timeline__header h5 span{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
 }
 
 .timeline__desc p {
