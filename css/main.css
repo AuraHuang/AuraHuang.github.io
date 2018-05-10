@@ -68,7 +68,7 @@
  *
  * ------------------------------------------------------------------- */
 *{
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 
 html {
@@ -2289,6 +2289,76 @@ html.no-csstransitions .home-content__main {
 
 
 /* -------------------------------------------------------------------
+ * ## brick - (_site-layout.scss)
+ * ------------------------------------------------------------------- */
+
+.brick__sec {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: #0d0a0b;
+  font-family: "montserrat-bold", "微軟正黑體", sans-serif;
+  border-radius: 3px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.direction__col {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.brick__left {
+  padding: 0px 20px;
+  width: 100%;
+}
+
+.brick__left p {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.brick__right {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  border-left: 2px solid #E9E9E9;
+}
+
+.brick__right span {
+  color: #307672;
+}
+
+.brick__right p {
+  margin: 0px;
+  font-size: 25px;
+}
+
+.brick__top p {
+  margin: 0px;
+  padding: 0px 10px;
+  border-bottom: 3px solid #307672;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.brick__bottom{
+  border-top: 2px solid #307672;
+  width: 100%;
+}
+
+.brick__bottom p {
+  margin: 0px;
+  padding: 10px 10px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+}
+
+/* -------------------------------------------------------------------
  * ## timeline - (_site-layout.scss)
  * ------------------------------------------------------------------- */
 .sec_title{
@@ -3396,7 +3466,7 @@ footer {
 }
 
 footer a, footer a:visited {
-    color: #307672;
+    color: #ffe121;
 }
 
 footer a:hover, footer a:focus {
